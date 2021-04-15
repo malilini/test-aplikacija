@@ -45,14 +45,13 @@ echo '<hr>';
     <h3> Ispis svih tekstova iz baze podataka</h3>
     <table border="1">
         <tr>
-            <th>#</th>
+            
             <th>Tekst</th>
         </tr>
 
         <?php if(!empty($unosi)): ?>
             <?php foreach($unosi as $unos): ?>
                 <tr>
-                    <td><?php echo '#'; ?></td>
                     <td><?php echo $unos['unos']; ?></td>
                 </tr>
             <?php endforeach; ?>
