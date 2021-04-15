@@ -33,7 +33,7 @@ class Database {
 
         try {
 
-            $stmt = $this->connection->prepare("SELECT * FROM Ispis");
+            $stmt = $this->connection->prepare("SELECT Tekst FROM Ispis");
             $stmt->execute();
 
             if($stmt->rowCount()) {
