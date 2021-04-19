@@ -1,0 +1,10 @@
+{
+    "name": "sk-github/test-001",
+    "description": "Testiranje Github Actions CI sustava",
+    "require": {
+        "php" : "7.4"
+    },
+    "require-dev": {
+        "php/phpunit" : "9"
+    }
+}
