@@ -1,10 +1,11 @@
 {
     "name": "sk-github/test-001",
     "description": "Testiranje Github Actions CI sustava",
+    "license": "MIT",
     "require": {
-        "php" : "7.4"
+        "php" : ">=7.3"
     },
     "require-dev": {
-        "php/phpunit" : "9"
+        "phpunit/phpunit" : "^9"
     }
 }
