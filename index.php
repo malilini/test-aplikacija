@@ -38,6 +38,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         <br><br>
             <?php echo date('d.m.Y H:i:s', time()); ?>
         <br><br>
+            <?php echo 'Evo nešto novo za heroku!'; ?>
+        <br><br>
         <hr>
 
         <div>
